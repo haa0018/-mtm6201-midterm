@@ -4,33 +4,57 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <title>Your Website</title>
+    <title>Noki's Creations</title>
 </head>
 <body>
+
+    <!-- Header Section -->
     <header>
-        <h1>Your Brand Name</h1>
+        <div class="logo">
+            <h1>Noki's Creations</h1>
+        </div>
         <!-- Add any other header content here -->
     </header>
 
+    <!-- Navigation Section -->
     <nav>
         <ul>
             <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="contact.html">Contact</a></li>
+            <li><a href="about.html">About</a>
+                <!-- Sub Navigation for About -->
+                <ul class="sub-nav">
+                    <li><a href="about.html#meet-the-team">Meet the Team</a></li>
+                </ul>
+            </li>
+            <li><a href="contact.html">Contact</a>
+                <!-- Sub Navigation for Contact -->
+                <ul class="sub-nav">
+                    <li><a href="contact.html#noki-discord">Noki Discord</a></li>
+                    <li><a href="contact.html#instagram">Instagram</a></li>
+                </ul>
+            </li>
             <!-- Add more navigation items as needed -->
         </ul>
     </nav>
 
+    <!-- Main Content Section -->
     <main>
-        <section>
-            <h2>Welcome to Our Website</h2>
+
+        <!-- Welcome Section -->
+        <section class="welcome-section">
+            <h2>Welcome to Noki's Creations</h2>
             <p>This is the homepage content.</p>
         </section>
         <!-- Add more sections/content for the homepage -->
 
-        <footer>
-            <p>&copy; 2023 Your Website. All rights reserved.</p>
-        </footer>
     </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2023 Noki's Creations. All rights reserved.</p>
+        </div>
+    </footer>
+
 </body>
 </html>
