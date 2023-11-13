@@ -132,6 +132,10 @@ footer {
     overflow: hidden;
     cursor: pointer;
     transition: transform 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff; /* Set text color for the categories */
 }
 
 .category:hover {
@@ -140,7 +144,7 @@ footer {
 
 /* Background Images for Each Category */
 #category1 {
-    background-image: url(images/016.jpg);
+    background-image: url('category1-background.jpg');
 }
 
 #category2 {
@@ -150,6 +154,7 @@ footer {
 #category3 {
     background-image: url('category3-background.jpg');
 }
+
 
 /* Add more styles as needed */
 
