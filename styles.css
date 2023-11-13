@@ -115,6 +115,45 @@ footer {
     margin-right: 10px;
 }
 
+/* Homepage Categories Styling */
+.homepage-categories {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin: 20px;
+}
+
+.category {
+    position: relative;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    border: 2px solid #fff;
+    overflow: hidden;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.category:hover {
+    transform: scale(1.1);
+}
+
+/* Background Images for Each Category */
+#category1 {
+    background-image: url('category1-background.jpg');
+}
+
+#category2 {
+    background-image: url('category2-background.jpg');
+}
+
+#category3 {
+    background-image: url('category3-background.jpg');
+}
+
+/* Add more styles as needed */
+
+
 
 
 
