@@ -58,10 +58,12 @@ footer {
 }
 
 .main-nav a {
+    
     display: block;
     padding: 15px;
     color: white;
     text-decoration: none;
+    border-bottom: 3px solid transparent;
 }
 
 .sub-nav {
@@ -77,6 +79,26 @@ footer {
 }
 
 .sub-nav li {
+    display: block;
+}
+
+.main-nav a:hover,
+.main-nav a:focus,
+.main-nav a:active {
+    border-bottom: 3px solid #fff;
+}
+
+
+.image-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
     display: block;
 }
 
