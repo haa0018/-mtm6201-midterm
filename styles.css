@@ -44,4 +44,40 @@ footer {
     padding: 0.5rem;
 }
 
+/* styles.css */
+.main-nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    display: flex;
+}
+
+.main-nav li {
+    position: relative;
+}
+
+.main-nav a {
+    display: block;
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+}
+
+.sub-nav {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #444;
+}
+
+.main-nav li:hover .sub-nav {
+    display: block;
+}
+
+.sub-nav li {
+    display: block;
+}
+
 /* Add more styles as needed for responsiveness and aesthetics */
