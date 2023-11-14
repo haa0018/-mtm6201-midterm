@@ -91,7 +91,7 @@ footer {
 .main-nav a:active {
     border-bottom: 3px solid #fff;
     font-weight: bold;
-    color: #ff0000; 
+    color: blue; 
 }
 
 
@@ -133,7 +133,7 @@ footer {
     overflow: hidden;
     cursor: pointer;
     transition: transform 0.3s;
-    background-color: #3498db;
+    background-color: blue;
 }
 
 .category img {
@@ -148,7 +148,7 @@ footer {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: #fff;
+    color: black;
     text-align: center;
     text-decoration: none;
     font-size: 1.5em; /* Adjust the font size as needed */
@@ -181,21 +181,20 @@ footer {
 }
 
 body {
-    background-color: #ecf0f1; /* Set a background color for the body */
-    color: #333; /* Set the text color */
-}
+    background-color: black; /* Set a background color for the body */
+    color: white;
 
 header {
-    background-color: #2ecc71; /* Set a background color for the header */
-    color: #fff; /* Set the text color in the header */
+    background-color: silver; /* Set a background color for the header */
+    color: white; /* Set the text color in the header */
 }
 
 nav {
-    background-color: #3498db; /* Set a background color for the navigation */
+    background-color: black; /* Set a background color for the navigation */
 }
 
 nav a {
-    color: #fff; /* Set the text color for navigation links */
+    color: gray; /* Set the text color for navigation links */
 }
 
 nav a:hover {
@@ -203,9 +202,6 @@ nav a:hover {
 }
 
 footer {
-    background-color: #34495e; /* Set a background color for the footer */
+    background-color: silver; /* Set a background color for the footer */
     color: #fff; /* Set the text color in the footer */
 }
-
-
-
