@@ -129,6 +129,10 @@ footer {
     transform: scale(1.5); /* Adjust the scale for full view */
 }
 
+.gallery-container:target .gallery-item img {
+    transform: scale(1.5); /* Adjust the scale for full view */
+}
+
 .footer-links a {
     margin-right: 10px;
 }
