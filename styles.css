@@ -125,7 +125,7 @@ footer {
 
 .category {
     position: relative;
-    height: 200px;
+    height: 100%; /* Set the height to 100% to fill the container */
     background-size: cover;
     background-position: center;
     border: 2px solid #fff;
@@ -136,7 +136,10 @@ footer {
     align-items: center;
     justify-content: center;
     color: #fff; /* Set text color for the categories */
+    text-align: center; /* Center text within the category */
+    text-decoration: none; /* Remove default link underline */
 }
+
 
 .category:hover {
     transform: scale(1.1);
