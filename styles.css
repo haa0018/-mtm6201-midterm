@@ -119,14 +119,14 @@ footer {
 .homepage-categories {
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    grid-template-rows: repeat(2,200px);
+    grid-template-rows: repeat(2,1fr);
     gap: 20px;
     margin: 20px;
 }
 
 .category {
     position: relative;
-    background-size: cover;
+    background-size: contain;
     background-position: center;
     border: 2px solid black;
     overflow: hidden;
