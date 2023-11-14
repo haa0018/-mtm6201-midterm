@@ -197,11 +197,6 @@ footer {
 
 /* Add background images to categories in styles.css */
 
-#category1 { background: url('images/016.jpg') center/cover; }
-#category2 { background: url('images/IMG_0074.jpg') center/cover; }
-#category3 { background: url('images/IMG_0072.jpg') center/cover; }
-#category4 { background: url('images/IMG_0074.jpg') center/cover; }
-
 
 body {
     background-color: black; /* Set a background color for the body */
