@@ -121,11 +121,12 @@ footer {
 }
 
 /* Homepage Categories Styling */
-.homepage-categories  .category{
+.homepage-categories {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
     gap: 20px;
+    margin-top: 20px;
 }
 
 .category {
@@ -135,6 +136,7 @@ footer {
     transition: transform 0.3s;
     background-color: white;
     border-radius: 10px;
+    height: 200px;
 }
 
 .category img {
