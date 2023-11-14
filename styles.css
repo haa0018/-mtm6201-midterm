@@ -122,10 +122,8 @@ footer {
 /* Homepage Categories Styling */
 .homepage-categories  .category{
     display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    grid-gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
     gap: 20px;
-    margin-top: 20px;
 }
 
 .category {
@@ -141,6 +139,7 @@ footer {
     width: 100%; /* Make sure the image takes up 100% of the container width */
     height: 150px; /* Maintain the aspect ratio of the image */
     transition: transform 0.3s ease-in;
+    object-fit: cover;
 }
 
 .category-title {
