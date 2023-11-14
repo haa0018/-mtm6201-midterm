@@ -125,10 +125,10 @@ footer {
 
 .category {
     position: relative;
-    height: 200px; /* Set the height to 100% to fill the container */
+    height: 50%; /* Set the height to 100% to fill the container */
     background-size: cover;
     background-position: center;
-    border: 2px solid #fff;
+    border: 2px solid black;
     overflow: hidden;
     cursor: pointer;
     transition: transform 0.3s;
