@@ -107,7 +107,10 @@ footer {
 .gallery-item {
     overflow: hidden;
     border-radius: 8px;
-    height: 200px
+    height: 200px;
+    position:relative;
+    cursor: pointer;
+    transition: transform 0.3s;
 }
 
 .gallery-item img {
@@ -115,6 +118,15 @@ footer {
     height: 100%;
     object-fit: cover;
     display: block;
+    transition: transform 0.3s ease-in;
+}
+
+.gallery-item:hover img {
+    transform: scale(1.1);
+}
+
+.gallery-item:target img {
+    transform: scale(1.5); /* Adjust the scale for full view */
 }
 
 .footer-links a {
