@@ -203,3 +203,31 @@ footer {
     background-color: silver; /* Set a background color for the footer */
     color: #fff; /* Set the text color in the footer */
 }
+
+/* Add the following styles to enhance the appearance of team members */
+.meet-the-team-section {
+    text-align: center;
+}
+
+.team-member {
+    margin-bottom: 30px;
+}
+
+.team-member img {
+    width: 150px; /* Adjust the image size as needed */
+    border-radius: 50%; /* Create a circular shape for the image */
+    margin-bottom: 10px;
+}
+
+.team-member h3 {
+    font-size: 1.5em;
+    margin-bottom: 5px;
+}
+
+.team-member p {
+    font-size: 1.1em;
+    color: #666;
+}
+
+/* Add more styles as needed */
+
