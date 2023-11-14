@@ -118,14 +118,14 @@ footer {
 /* Homepage Categories Styling */
 .homepage-categories {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,200px);
     gap: 20px;
     margin: 20px;
 }
 
 .category {
     position: relative;
-    height: 50%; /* Set the height to 100% to fill the container */
     background-size: cover;
     background-position: center;
     border: 2px solid black;
@@ -135,7 +135,7 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #fff; /* Set text color for the categories */
+    color: blue; /* Set text color for the categories */
     text-align: center; /* Center text within the category */
     text-decoration: none; /* Remove default link underline */
 }
@@ -145,21 +145,6 @@ footer {
     transform: scale(1.1);
 }
 
-/* Background Images for Each Category */
-#category1 {
-    background-image: url('category1-background.jpg');
-}
-
-#category2 {
-    background-image: url('category2-background.jpg');
-}
-
-#category3 {
-    background-image: url('category3-background.jpg');
-}
-
-
-/* Add more styles as needed */
 
 
 
